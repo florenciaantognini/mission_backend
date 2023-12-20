@@ -1,0 +1,44 @@
+/********************/
+/*     SLIDER   */
+/********************/
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-36);
+    margin: var(--spacing-68) auto;
+}
+
+.slider__title {
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    text-transform: uppercase;
+}
+
+.slider__items {
+    display: flex;
+    /*gap: var(--spacing-24)*/
+}
+
+.slider__text {
+    font-family: var(--alternative-font);
+    gap: var(--spacing-24)
+}
+
+
+
+
+
+
+
+/********************/
+/*     OVERRIDE     */
+/********************/
+
+.glide__arrow--left {
+    left: 0;
+}
+
+.glide__arrow--right {
+    right: 0;
+}
